@@ -1,12 +1,31 @@
-.container-sm {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-text {
+    font-weight: bol;
+}
+
+.main-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
 
+.alert {
+    display: none;
+    transition: opacity 3s ease-in-out;
+}
+
+.title-text {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
 .btn-org {
     color: white;
     background: #0d6efd;
+    border: none;
     width: 45px;
     height: 40px;
     border-radius: 5px;
