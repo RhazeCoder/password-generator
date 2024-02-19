@@ -1,0 +1,16 @@
+.container-sm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn-org {
+    color: white;
+    background: #0d6efd;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
